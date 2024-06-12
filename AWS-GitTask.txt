@@ -1,0 +1,12 @@
+1 - Create one Linux instance (VM-1) with 5 txt files and 5 java files along with download git, java, maven, python.
+2 - Create another linux instance(VM-2) and get all the software and all Java files from 1st instance.
+3 - push all 1st instance java files to master branch and txt files to first branch.
+4 - create 5 python files and add content to java and python files in 2nd instance.
+5 - push 5 python files and java files to 1st branch.
+6 - merge First branch  with Master branch in 1st instance.
+7 - upload some local files(from your laptop) into s3 bucket.
+8 - get Objects from s3 to 1st instance.
+9 - Modify txt files  1st instances upload changes to master branch.
+10 - Stop the 1st instance if CPU utilization is less than 40% and get notified.
+11 - merge Second branch with first branch and  Master branch to first branch  in 2nd instance.
+12 - Stop the 2nd instance at exactly 2'o clock today and get notified.
